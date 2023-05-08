@@ -22,3 +22,9 @@ const evenArr = coffeeMenu.filter(function (num) {
     return num % 2 === 0;
 });
 console.log(evensArr);
+
+//Return the total if you were to order one of every drink.
+const totalprice = coffeeMenu.reduce((acc, cur) => {
+    return acc + cur.price;
+    //0 is the intial value if there is no intitial value its is automatically the first element
+}, 0)
