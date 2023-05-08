@@ -34,4 +34,4 @@ const totalprice = coffeeMenu.reduce((acc, cur) => {
 const seasonal = characters.filter((element)); {
     return characters.seasonal.includes('true');
 };
-console.log(seasonal);
+console.log(seasonal + ("With Imported Beans"));
