@@ -28,3 +28,10 @@ const totalprice = coffeeMenu.reduce((acc, cur) => {
     return acc + cur.price;
     //0 is the intial value if there is no intitial value its is automatically the first element
 }, 0)
+
+//Return an array with all the drinks that are seasonal.
+
+const seasonal = characters.filter((element)); {
+    return characters.seasonal.includes('true');
+};
+console.log(seasonal);
