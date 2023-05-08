@@ -17,7 +17,7 @@ const itemsUnderFive = coffeeMenu.filter(underFive);
 console.table(itemsUnderFive);
 
 
-//Return an array of drinks that are priced at an even number.
+//Return an array of drinks that are priced at an even number.   
 const evenArr = coffeeMenu.filter(function (num) {
     return num % 2 === 0;
 });
